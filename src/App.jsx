@@ -4,6 +4,7 @@ import Dashboard from './pages/Dashboard';
 import Charts from './pages/Charts';
 import Tables from './pages/Tables';
 import Certificados from './pages/Certificados';
+import Cobros from './pages/Certificados';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
           <Route path="/charts" element={<Charts />} />
           <Route path="/tables" element={<Tables />} />
           <Route path="/certificados-de-recoleccion" element={<Certificados />} />
+          <Route path="/cuentas-de-cobro" element={<Cobros />} />
 
         </Route>
       </Routes>

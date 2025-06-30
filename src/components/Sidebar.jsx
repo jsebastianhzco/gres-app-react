@@ -8,7 +8,7 @@ const Sidebar = () => {
           <div className="nav">
             <div className="sb-sidenav-menu-heading">Módulos</div>
 
-            <Link className="nav-link" to="/cuenta-de-cobro">
+            <Link className="nav-link" to="/cuentas-de-cobro">
               <div className="sb-nav-link-icon"><i className="fas fa-file-invoice-dollar"></i></div>
               Cuenta de Cobro
             </Link>

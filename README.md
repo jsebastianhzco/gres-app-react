@@ -1,12 +1,50 @@
-# React + Vite
+# Environmental Certificates System – Frontend (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains the **refactored frontend** of a real-world production system originally developed in raw PHP for a private environmental services company in Colombia. The refactor is being carried out using **React + Vite**, with **Axios** used to communicate with a backend built in **FastAPI** (hosted in a separate repository).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧩 Project Context
 
-## Expanding the ESLint configuration
+The original legacy system has been used for years by the client and continues to operate in production. It handles the full lifecycle of customer interactions related to environmental service certification and billing.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This repository represents the **modernized frontend**, rebuilt from scratch using modern JavaScript technologies, with API integration ready and in use.
+
+---
+
+## ✅ Current Status
+
+- 🔄 Migrated from: Legacy PHP (version 1)
+- ⚙️ This repo: React + Vite frontend (in-progress but functional)
+- 🔗 Backend: FastAPI + PostgreSQL (available in separate repository)
+- ☁️ Integration: Axios is already implemented for API communication
+
+---
+
+## 🚀 Core Features
+
+- Built with **React + Vite** for fast development and modern SPA performance
+- Uses **Axios** for communication with FastAPI backend
+- Enables real-time customer and document handling
+- Frontend handles:
+  - Listing and searching of generated certificates
+  - Invoice issuance interface
+  - Client management UI
+- Backend handles:
+  - PDF generation and email delivery (triggered automatically from UI)
+  - Database and logic for certificates and accounts receivable
+
+---
+
+## 🛠️ Tech Stack
+
+- React (Functional Components + Hooks)
+- Vite (Fast dev server and optimized build)
+- Axios (API consumption)
+- JavaScript (ES6+)
+- ESLint + Prettier
+
+---
+
+## 📁 Structure
+

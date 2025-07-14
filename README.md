@@ -1,4 +1,4 @@
-# Environmental Certificates System – Frontend (React + Vite)
+## Gres System UI – Certificates, Billing and Client Management (React + Vite)
 
 This repository contains the **refactored frontend** of a real-world production system originally developed in raw PHP for a private environmental services company in Colombia. The refactor is being carried out using **React + Vite**, with **Axios** used to communicate with a backend built in **FastAPI** (hosted in a separate repository).
 

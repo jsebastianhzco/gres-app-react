@@ -48,15 +48,15 @@ This repository represents the **modernized frontend**, rebuilt from scratch usi
 
 ## 📁 Structure
 
-src/
-├── assets/ # Static assets (images, logos, etc.)
-├── components/ # Reusable UI components (e.g. buttons, cards)
-├── layouts/ # General layout wrappers (e.g. sidebar, nav)
-├── pages/ # Top-level views or screens (e.g. Clients, Invoices)
-├── scripts/ # Utility functions and helper logic
-├── styles/ # CSS or styling modules
-├── App.jsx # Root app component
-├── App.css # Global styles
+src/ 
+├── assets/ # Static assets (images, logos, etc.) 
+├── components/ # Reusable UI components (e.g. buttons, cards) 
+├── layouts/ # General layout wrappers (e.g. sidebar, nav) 
+├── pages/ # Top-level views or screens (e.g. Clients, Invoices) 
+├── scripts/ # Utility functions and helper logic 
+├── styles/ # CSS or styling modules 
+├── App.jsx # Root app component 
+├── App.css # Global styles 
 └── main.jsx # Vite entry point
 
 ## 🛑 License

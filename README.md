@@ -47,7 +47,7 @@ This repository represents the **modernized frontend**, rebuilt from scratch usi
 ---
 
 ## 📁 Structure
-
+<code>
 src/
 ├── assets/ # Static assets (images, logos, etc.)
 ├── components/ # Reusable UI components (e.g. buttons, cards)
@@ -59,3 +59,4 @@ src/
 ├── App.css # Global styles
 └── main.jsx # Vite entry point
 
+</code>
